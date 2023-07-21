@@ -23,6 +23,16 @@
   <url-pattern>/2app</url-pattern>
   </servlet-mapping>
   
+    <servlet>
+  <servlet-name>third</servlet-name>
+  <servlet-class>com.servlet.httpservlet03</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>third</servlet-name>
+  <url-pattern>/3app</url-pattern>
+  </servlet-mapping>
+  
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
