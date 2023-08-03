@@ -21,10 +21,10 @@ public class Register extends HttpServlet{
 		
 		PrintWriter out =resp.getWriter();
 		
-		out.print("<h1> Name:" +name +"</h1>");
-		out.print("<h1> Email:" +email +"</h1>");
-		out.print("<h1> Password:" +password +"</h1>");
-		out.print("<h1> Course:" +course +"</h1>");
+		out.print("<h1> Name:" + name +"</h1>");
+		out.print("<h1> Email:" + email +"</h1>");
+		out.print("<h1> Password:" + password +"</h1>");
+		out.print("<h1> Course:" + course +"</h1>");
 
 		
 	}
