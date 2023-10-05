@@ -22,9 +22,10 @@ public class servlet2 extends HttpServlet {
 		Cookie[] ck=req.getCookies();
 		
 		resp.setContentType("text/html");
-		out.print("<h1>welcome to servlet1 name=" + ck[0].getValue()+"</h1>");
+		out.print("<h1>welcome to servlet2 name=" + ck[0].getValue()+"</h1>");
 		
 	}
+
 	
 
 }
